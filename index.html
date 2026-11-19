@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Lab</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <main id="app">
+        <h1>Style Lab</h1>
+        <div id="preview" class="preview-box">Preview Element</div>
+        <div class="controls">
+            <label>Border Radius: <input type="range" id="radius" min="0" max="50" value="8"> <span id="r-val">8</span>px</label>
+            <label>Padding: <input type="range" id="padding" min="10" max="100" value="20"> <span id="p-val">20</span>px</label>
+        </div>
+        <button id="export">Export CSS</button>
+    </main>
+    <script src="src/js/editor.js"></script>
+    <script src="src/js/export.js"></script>
+</body>
+</html>
